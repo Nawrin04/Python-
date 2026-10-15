@@ -1,0 +1,146 @@
+```python
+# ==========================================
+# PYTHON TOPIC 2: VARIABLES AND DATA TYPES
+# ==========================================
+
+# 1. VARIABLES
+# A variable stores a value.
+
+name = "Rahim"           # String: stores text
+age = 24                 # Integer: stores a whole number
+height = 5.5             # Float: stores a decimal number
+is_student = True        # Boolean: stores True or False
+
+# Display variable values
+print("Name:", name)
+print("Age:", age)
+print("Height:", height)
+print("Is Student:", is_student)
+
+
+# 2. CHECK DATA TYPES
+# type() tells us the data type of a variable.
+
+print("\n--- DATA TYPES ---")
+
+print(type(name))        # <class 'str'>
+print(type(age))         # <class 'int'>
+print(type(height))      # <class 'float'>
+print(type(is_student)) # <class 'bool'>
+
+
+# 3. LIST
+# A list stores multiple values.
+# Lists can be changed.
+
+marks = [80, 85, 90]
+
+print("\n--- LIST ---")
+print("Marks:", marks)
+print("First mark:", marks[0])  # Index starts from 0
+
+marks[0] = 95                   # Change the first mark
+print("Updated marks:", marks)
+
+
+# 4. TUPLE
+# A tuple stores multiple values.
+# Tuple items cannot normally be changed.
+
+coordinates = (10, 20, 30)
+
+print("\n--- TUPLE ---")
+print("Coordinates:", coordinates)
+print("First value:", coordinates[0])
+
+
+# 5. SET
+# A set stores unique values.
+# Duplicate values are removed.
+
+numbers = {10, 20, 20, 30}
+
+print("\n--- SET ---")
+print("Numbers:", numbers)
+
+
+# 6. DICTIONARY
+# A dictionary stores data as key-value pairs.
+
+student = {
+    "name": "Rahim",
+    "age": 24,
+    "department": "CSE"
+}
+
+print("\n--- DICTIONARY ---")
+print("Student information:", student)
+print("Student name:", student["name"])
+print("Department:", student["department"])
+
+
+# 7. NONE
+# None represents the absence of a value.
+
+result = None
+
+print("\n--- NONE ---")
+print("Result:", result)
+print("Data type:", type(result))
+
+
+# 8. CHANGING A VARIABLE'S VALUE
+
+print("\n--- CHANGE VALUE ---")
+
+age = 20
+print("Old age:", age)
+
+age = 24
+print("New age:", age)
+
+
+# 9. TYPE CONVERSION
+# Convert one data type into another.
+
+print("\n--- TYPE CONVERSION ---")
+
+number_text = "100"          # This is a string
+number = int(number_text)    # Convert string to integer
+
+print("Converted number:", number)
+print("Data type:", type(number))
+
+decimal_number = float("3.14")  # String to float
+print("Decimal number:", decimal_number)
+
+age_text = str(age)              # Integer to string
+print("Age as text:", age_text)
+print("Data type:", type(age_text))
+
+
+# 10. VARIABLE NAMING RULES
+
+student_name = "Rahim"     # Valid variable name
+student_age = 24           # Valid variable name
+_total_marks = 450         # Valid variable name
+
+# Examples of invalid variable names:
+# 2age = 24                 # Cannot start with a number
+# student name = "Rahim"   # Cannot contain spaces
+# class = "CSE"             # 'class' is a Python keyword
+
+
+# 11. FINAL SUMMARY
+
+print("\n--- FINAL SUMMARY ---")
+print("Name:", name)
+print("Age:", age)
+print("Height:", height)
+print("Marks:", marks)
+print("Coordinates:", coordinates)
+print("Student:", student)
+print("Result:", result)
+
+# END OF PROGRAM
+```
