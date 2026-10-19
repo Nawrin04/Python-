@@ -1,0 +1,22 @@
+# ==================================
+# PYTHON STRINGS: CHANGING LETTER CASE
+# ==================================
+
+text = "python programming"
+
+# Convert all letters to uppercase
+print(text.upper())
+
+# Convert all letters to lowercase
+print(text.lower())
+
+# Capitalize the first character
+print(text.capitalize())
+
+# Capitalize the first letter of each word
+print(text.title())
+
+# Reverse the case of each letter
+message = "Hello PYTHON"
+print(message.swapcase())
+```
